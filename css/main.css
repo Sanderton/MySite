@@ -1,0 +1,53 @@
+/* Scss Document */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* line 27, ../scss/main.scss */
+#container {
+  width: 960px;
+  margin: 0 auto; }
+
+/* line 32, ../scss/main.scss */
+nav {
+  width: 100%; }
+  /* line 34, ../scss/main.scss */
+  nav ul {
+    padding: 0;
+    list-style-type: none; }
+  /* line 40, ../scss/main.scss */
+  nav li a {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+    padding: 20px 30px;
+    border: 2px solid #000;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    color: #ff00bf;
+    background-color: #00ff00;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder; }
+    /* line 53, ../scss/main.scss */
+    nav li a:hover, nav li a.active {
+      color: #00ff00;
+      background-color: #ff00bf;
+      font-style: normal;
+      font-size: 8px;
+      font-weight: 100; }
+
+/* line 65, ../scss/main.scss */
+h1, h2, h3, h4 {
+  font-family: Papyrus, fantasy;
+  color: #ff00bf; }
+
+/* line 69, ../scss/main.scss */
+h1 {
+  font-family: Papyrus, fantasy;
+  color: #00ff00; }
+
+/* line 73, ../scss/main.scss */
+p {
+  font-family: "Roboto", sans-serif;
+  color: #000; }
+
+/*# sourceMappingURL=main.css.map */
